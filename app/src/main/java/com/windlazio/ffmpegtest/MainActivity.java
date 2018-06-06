@@ -9,8 +9,6 @@ public class MainActivity extends AppCompatActivity {
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
-        System.loadLibrary("avutil-55");
-        System.loadLibrary("avcodec-57");
     }
 
     @Override
